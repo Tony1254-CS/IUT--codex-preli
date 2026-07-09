@@ -17,23 +17,20 @@ router = APIRouter(prefix="/admin", tags=["admin"])
 
 @router.get("/usage-report")
 def usage_report(
-    frm: str = Query(..., alias="from"),
-    to: str = Query(...),
+    frm: datetime.date = Query(..., alias="from"),
+    to: datetime.date = Query(...),
     db: Session = Depends(get_db),
     admin: User = Depends(require_admin),
 ):
-    cached = cache.get_report(admin.org_id, frm, to)
+    # Date string used for cache key
+    frm_str = frm.isoformat()
+    to_str = to.isoformat()
+    cached = cache.get_report(admin.org_id, frm_str, to_str)
     if cached is not None:
         return cached
 
-    try:
-        from_date = datetime.strptime(frm, "%Y-%m-%d").date()
-        to_date = datetime.strptime(to, "%Y-%m-%d").date()
-    except ValueError:
-        raise AppError(400, "INVALID_BOOKING_WINDOW", "Invalid date range")
-
-    range_start = datetime.combine(from_date, time.min)
-    range_end = datetime.combine(to_date + timedelta(days=1), time.min)
+    range_start = datetime.combine(frm, time.min)
+    range_end = datetime.combine(to + timedelta(days=1), time.min)
 
     rooms = db.query(Room).filter(Room.org_id == admin.org_id).order_by(Room.id.asc()).all()
     room_rows = []
@@ -57,9 +54,13 @@ def usage_report(
             }
         )
 
-    result = {"from": frm, "to": to, "rooms": room_rows}
-    cache.set_report(admin.org_id, frm, to, result)
-    return result
+    result_dict = {
+        "from": frm_str,
+        "to": to_str,
+        "rooms": room_rows,
+    }
+    cache.set_report(admin.org_id, frm_str, to_str, result_dict)
+    return result_dict
 
 
 @router.get("/export")

@@ -27,8 +27,14 @@ def register(payload: RegisterRequest, db: Session = Depends(get_db)):
     if org is None:
         org = Organization(name=payload.org_name)
         db.add(org)
-        db.flush()
-        db.refresh(org)
+        try:
+            db.flush()
+        except IntegrityError:
+            db.rollback()
+            org = db.query(Organization).filter(Organization.name == payload.org_name).first()
+            role = "member"
+        else:
+            db.refresh(org)
 
     existing = (
         db.query(User)

@@ -61,22 +61,18 @@ def create_room(
 @router.get("/{room_id}/availability")
 def availability(
     room_id: int,
-    date: str = Query(...),
+    date: datetime.date = Query(...),
     db: Session = Depends(get_db),
     user: User = Depends(get_current_user),
 ):
     room = _get_org_room(db, room_id, user.org_id)
 
-    cached = cache.get_availability(room.id, date)
+    date_str = date.isoformat()
+    cached = cache.get_availability(room.id, date_str)
     if cached is not None:
         return cached
 
-    try:
-        day = datetime.strptime(date, "%Y-%m-%d").date()
-    except ValueError:
-        raise AppError(400, "INVALID_BOOKING_WINDOW", "Invalid date")
-
-    day_start = datetime.combine(day, time.min)
+    day_start = datetime.combine(date, time.min)
     day_end = day_start + timedelta(days=1)
     bookings = (
         db.query(Booking)
@@ -89,15 +85,12 @@ def availability(
         .order_by(Booking.start_time.asc(), Booking.id.asc())
         .all()
     )
-    result = {
-        "room_id": room.id,
-        "date": date,
-        "busy": [
-            {"start_time": iso_utc(b.start_time), "end_time": iso_utc(b.end_time)}
-            for b in bookings
-        ],
-    }
-    cache.set_availability(room.id, date, result)
+    busy = [
+        {"start_time": iso_utc(b.start_time), "end_time": iso_utc(b.end_time)}
+        for b in bookings
+    ]
+    result = {"room_id": room.id, "date": date_str, "busy": busy}
+    cache.set_availability(room.id, date_str, result)
     return result
 
 
