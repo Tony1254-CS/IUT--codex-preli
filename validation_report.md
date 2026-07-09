@@ -12,7 +12,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "org_name": "org_75f5e1ea",
+  "org_name": "org_a586d77f",
   "username": "admin1",
   "password": "pw"
 }
@@ -27,8 +27,8 @@ This test suite validates the implementation against the specification, covering
 - JSON:
 ```json
 {
-  "user_id": 2,
-  "org_id": 2,
+  "user_id": 20,
+  "org_id": 17,
   "username": "admin1",
   "role": "admin"
 }
@@ -45,7 +45,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "org_name": "org_75f5e1ea",
+  "org_name": "org_a586d77f",
   "username": "member1",
   "password": "pw"
 }
@@ -60,8 +60,8 @@ This test suite validates the implementation against the specification, covering
 - JSON:
 ```json
 {
-  "user_id": 3,
-  "org_id": 2,
+  "user_id": 21,
+  "org_id": 17,
   "username": "member1",
   "role": "member"
 }
@@ -78,7 +78,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "org_name": "org_75f5e1ea",
+  "org_name": "org_a586d77f",
   "username": "member2"
 }
 ```
@@ -101,7 +101,7 @@ This test suite validates the implementation against the specification, covering
       ],
       "msg": "Field required",
       "input": {
-        "org_name": "org_75f5e1ea",
+        "org_name": "org_a586d77f",
         "username": "member2"
       }
     }
@@ -120,7 +120,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "org_name": "org_75f5e1ea",
+  "org_name": "org_a586d77f",
   "username": "admin1",
   "password": "pw"
 }
@@ -151,7 +151,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "org_name": "org_b06e17d0",
+  "org_name": "org_5f17290f",
   "username": "admin1",
   "password": "pw"
 }
@@ -166,8 +166,8 @@ This test suite validates the implementation against the specification, covering
 - JSON:
 ```json
 {
-  "user_id": 4,
-  "org_id": 3,
+  "user_id": 22,
+  "org_id": 18,
   "username": "admin1",
   "role": "admin"
 }
@@ -184,7 +184,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "org_name": "org_effb2641",
+  "org_name": "org_b3b37708",
   "username": "user1",
   "password": "pw"
 }
@@ -199,8 +199,8 @@ This test suite validates the implementation against the specification, covering
 - JSON:
 ```json
 {
-  "user_id": 5,
-  "org_id": 4,
+  "user_id": 23,
+  "org_id": 19,
   "username": "user1",
   "role": "admin"
 }
@@ -217,7 +217,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "org_name": "org_c2a0eb71",
+  "org_name": "org_8514c123",
   "username": "user2",
   "password": "pw"
 }
@@ -232,8 +232,8 @@ This test suite validates the implementation against the specification, covering
 - JSON:
 ```json
 {
-  "user_id": 6,
-  "org_id": 5,
+  "user_id": 24,
+  "org_id": 20,
   "username": "user2",
   "role": "admin"
 }
@@ -250,7 +250,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "org_name": "org_7fb32fbd",
+  "org_name": "org_85cbc6e1",
   "username": "user3",
   "password": "pw"
 }
@@ -265,8 +265,8 @@ This test suite validates the implementation against the specification, covering
 - JSON:
 ```json
 {
-  "user_id": 7,
-  "org_id": 6,
+  "user_id": 25,
+  "org_id": 21,
   "username": "user3",
   "role": "admin"
 }
@@ -283,7 +283,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "org_name": "org_d16f5703",
+  "org_name": "org_14bb5398",
   "username": "user4",
   "password": "pw"
 }
@@ -298,8 +298,8 @@ This test suite validates the implementation against the specification, covering
 - JSON:
 ```json
 {
-  "user_id": 8,
-  "org_id": 7,
+  "user_id": 26,
+  "org_id": 22,
   "username": "user4",
   "role": "admin"
 }
@@ -316,7 +316,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "org_name": "org_a681c2be",
+  "org_name": "org_53bc85b6",
   "username": "user5",
   "password": "pw"
 }
@@ -331,8 +331,8 @@ This test suite validates the implementation against the specification, covering
 - JSON:
 ```json
 {
-  "user_id": 9,
-  "org_id": 8,
+  "user_id": 27,
+  "org_id": 23,
   "username": "user5",
   "role": "admin"
 }
@@ -349,7 +349,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "org_name": "org_75f5e1ea",
+  "org_name": "org_a586d77f",
   "username": "admin1",
   "password": "pw"
 }
@@ -364,8 +364,8 @@ This test suite validates the implementation against the specification, covering
 - JSON:
 ```json
 {
-  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwib3JnIjoyLCJyb2xlIjoiYWRtaW4iLCJqdGkiOiI4Zjc0NjVhMDBmMDc0ZjQyYTJiODYyNmJkNDNjNjg1YyIsImlhdCI6MTc4MzYwNzg0OSwiZXhwIjoxNzgzNjA4NzQ5LCJ0eXBlIjoiYWNjZXNzIn0.oIZbCnxvKj6OSz1U9oOVW1AaRNlNYjEx7o8DfaX2Jbk",
-  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwib3JnIjoyLCJyb2xlIjoiYWRtaW4iLCJqdGkiOiIyZTI3NjMyMmNjYzg0Mzc0YjliZDNjNTVkMjU4ZTRjMiIsImlhdCI6MTc4MzYwNzg0OSwiZXhwIjoxNzg0MjEyNjQ5LCJ0eXBlIjoicmVmcmVzaCJ9.nGhrgSzK3zZyQwnPcjMVBXw4UI6YOriDN6rYlCp4kWA",
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMCIsIm9yZyI6MTcsInJvbGUiOiJhZG1pbiIsImp0aSI6ImE2NjY3NjU2NGVlNjQyOTNiNzQ1NjM0M2E4MGIxNmUwIiwiaWF0IjoxNzgzNjA5NjgyLCJleHAiOjE3ODM2MTA1ODIsInR5cGUiOiJhY2Nlc3MifQ.4ICFpxwB7R9gcVRwDrWA3ta0UGMWPEBNXDhUyuy0Yw4",
+  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMCIsIm9yZyI6MTcsInJvbGUiOiJhZG1pbiIsImp0aSI6IjgzMWU5MTJhMzU2NzQzM2JiYWQyZTlmZmI3YjU3ZGZhIiwiaWF0IjoxNzgzNjA5NjgyLCJleHAiOjE3ODQyMTQ0ODIsInR5cGUiOiJyZWZyZXNoIn0.Pa3WDkgJKzC-q-S_uurpI0XLJjiz7Rz0jmk21rQ5MYo",
   "token_type": "bearer"
 }
 ```
@@ -381,7 +381,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "org_name": "org_75f5e1ea",
+  "org_name": "org_a586d77f",
   "username": "member1",
   "password": "pw"
 }
@@ -396,8 +396,8 @@ This test suite validates the implementation against the specification, covering
 - JSON:
 ```json
 {
-  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzIiwib3JnIjoyLCJyb2xlIjoibWVtYmVyIiwianRpIjoiZWRkNGE3YTdjMTNlNGEwY2FjNjJkMmIzMWFiM2MzYzEiLCJpYXQiOjE3ODM2MDc4NDksImV4cCI6MTc4MzYwODc0OSwidHlwZSI6ImFjY2VzcyJ9.9Fgs51o2G0Lj2ciXmD6veXpwT8FbuXLmEJ0-yUciQG4",
-  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzIiwib3JnIjoyLCJyb2xlIjoibWVtYmVyIiwianRpIjoiM2I5YTQ1Zjc0NjJjNGRlMmE2YTRhNzg2MzJlYTA0ZDIiLCJpYXQiOjE3ODM2MDc4NDksImV4cCI6MTc4NDIxMjY0OSwidHlwZSI6InJlZnJlc2gifQ.jxfRcF2eS3hLxqBc8Momq0qgiEqrv5b2-B6KVIN_a3U",
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMSIsIm9yZyI6MTcsInJvbGUiOiJtZW1iZXIiLCJqdGkiOiI1YWQwOThiNTA0NTI0OGNhYjdhNmYwNmRhNjEyMTE1OSIsImlhdCI6MTc4MzYwOTY4MiwiZXhwIjoxNzgzNjEwNTgyLCJ0eXBlIjoiYWNjZXNzIn0.8CsMOZbar43_u8r7XHXYW63BlA-SctnSkLBux915x48",
+  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMSIsIm9yZyI6MTcsInJvbGUiOiJtZW1iZXIiLCJqdGkiOiIxNzAxODg4ZjZmNGU0NGE0OTdlNzA3YWQ5NzVhZDkxNyIsImlhdCI6MTc4MzYwOTY4MiwiZXhwIjoxNzg0MjE0NDgyLCJ0eXBlIjoicmVmcmVzaCJ9.kHbPs1-ONZ1eZjZRMFc4vDrbi-HjuO2kHZ8FQ8j9v84",
   "token_type": "bearer"
 }
 ```
@@ -413,7 +413,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "org_name": "org_75f5e1ea",
+  "org_name": "org_a586d77f",
   "username": "admin1",
   "password": "wrong"
 }
@@ -444,7 +444,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "org_name": "org_75f5e1ea",
+  "org_name": "org_a586d77f",
   "username": "",
   "password": "pw"
 }
@@ -475,7 +475,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "org_name": "org_b06e17d0",
+  "org_name": "org_5f17290f",
   "username": "admin1",
   "password": "pw"
 }
@@ -490,8 +490,8 @@ This test suite validates the implementation against the specification, covering
 - JSON:
 ```json
 {
-  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0Iiwib3JnIjozLCJyb2xlIjoiYWRtaW4iLCJqdGkiOiIyZWRhMGNmYWQyN2Q0ZWRlYTA3ZDA1YzVjM2Y2NWRjMyIsImlhdCI6MTc4MzYwNzg0OSwiZXhwIjoxNzgzNjA4NzQ5LCJ0eXBlIjoiYWNjZXNzIn0.JQIEHD0ZmgEE3Y-uhbN-7UDKd9hPx7HK2Y01MY69vmQ",
-  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0Iiwib3JnIjozLCJyb2xlIjoiYWRtaW4iLCJqdGkiOiIxNTQ4NWRhZmUwYzE0ZTY5ODllYjE2M2VmZmZjNzAwYSIsImlhdCI6MTc4MzYwNzg0OSwiZXhwIjoxNzg0MjEyNjQ5LCJ0eXBlIjoicmVmcmVzaCJ9.SS504li2ID6xCJW5OabV3Mn_0ULfhPHSxHBD-BLe7vA",
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMiIsIm9yZyI6MTgsInJvbGUiOiJhZG1pbiIsImp0aSI6ImE3YmQ5ZGRkZTk1MzQxNWViYmYxMDhjZjJkM2NiYmJhIiwiaWF0IjoxNzgzNjA5NjgyLCJleHAiOjE3ODM2MTA1ODIsInR5cGUiOiJhY2Nlc3MifQ.ozjC6vB9opr4mzVHbghvD739g5YZ5fZYtViuqr8AlZM",
+  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMiIsIm9yZyI6MTgsInJvbGUiOiJhZG1pbiIsImp0aSI6IjA4NmE1NTQ4YWRkZDRjNjdhYzBlOWE2NjU1ZWI2ZDNjIiwiaWF0IjoxNzgzNjA5NjgyLCJleHAiOjE3ODQyMTQ0ODIsInR5cGUiOiJyZWZyZXNoIn0.1an2RzrAwIOA6a3bV0sqsJIC0Y-D7w3pPjZz7JyT9TQ",
   "token_type": "bearer"
 }
 ```
@@ -507,7 +507,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "org_name": "org_b06e17d0",
+  "org_name": "org_5f17290f",
   "username": "admin1",
   "password": "pw"
 }
@@ -522,8 +522,8 @@ This test suite validates the implementation against the specification, covering
 - JSON:
 ```json
 {
-  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0Iiwib3JnIjozLCJyb2xlIjoiYWRtaW4iLCJqdGkiOiIyMTNkZGE2NjUxMTI0NjhmODRlNDY1YTUyNmNjN2ZmNCIsImlhdCI6MTc4MzYwNzg0OSwiZXhwIjoxNzgzNjA4NzQ5LCJ0eXBlIjoiYWNjZXNzIn0.yX81K_32umurE3bxzd5XteQAHAEjMnUcEKO6EiGs0H0",
-  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0Iiwib3JnIjozLCJyb2xlIjoiYWRtaW4iLCJqdGkiOiJlYjczZDEzMTQxNjU0ZjE4OTc2NjJlYWU4MjZhNWJlNiIsImlhdCI6MTc4MzYwNzg0OSwiZXhwIjoxNzg0MjEyNjQ5LCJ0eXBlIjoicmVmcmVzaCJ9.tOpP2wWTOocRhuSv8b-bOpk0Iep4GAAkDOTMZb0XgDQ",
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMiIsIm9yZyI6MTgsInJvbGUiOiJhZG1pbiIsImp0aSI6ImQ3ZTQ1YzFlNDYwYjQ2MGVhNzA5OTIxMjliM2I1MmRjIiwiaWF0IjoxNzgzNjA5NjgyLCJleHAiOjE3ODM2MTA1ODIsInR5cGUiOiJhY2Nlc3MifQ.gMaeNADWyemNVd-U3ZqENDKJHwh5vgBUDC4wgvrJ-CE",
+  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMiIsIm9yZyI6MTgsInJvbGUiOiJhZG1pbiIsImp0aSI6ImFjY2M5NmFkNzRiMzQ5MzI4M2JlYTMwNWEwYmQ1ZDQ1IiwiaWF0IjoxNzgzNjA5NjgyLCJleHAiOjE3ODQyMTQ0ODIsInR5cGUiOiJyZWZyZXNoIn0.CX2hAprdqWcRvnVlhq1eLX1Pp_zsekp5vZc7GD5aHOk",
   "token_type": "bearer"
 }
 ```
@@ -539,7 +539,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "org_name": "org_75f5e1ea",
+  "org_name": "org_a586d77f",
   "username": "admin1",
   "password": "pw"
 }
@@ -554,8 +554,8 @@ This test suite validates the implementation against the specification, covering
 - JSON:
 ```json
 {
-  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwib3JnIjoyLCJyb2xlIjoiYWRtaW4iLCJqdGkiOiIzYjUwMGIwYmRlMWQ0NjRjYmFjNTVkMDMwMDMwNGUxZiIsImlhdCI6MTc4MzYwNzg1MCwiZXhwIjoxNzgzNjA4NzUwLCJ0eXBlIjoiYWNjZXNzIn0.LlLRGIkp6AFn39LT6cKWJs3Bqjbt_YLdKv6itbDD7yM",
-  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwib3JnIjoyLCJyb2xlIjoiYWRtaW4iLCJqdGkiOiJiMTE3YWY4MGY2NDM0NzUyODJmMDM4ZjYwZjA0MWMzNSIsImlhdCI6MTc4MzYwNzg1MCwiZXhwIjoxNzg0MjEyNjUwLCJ0eXBlIjoicmVmcmVzaCJ9.Csxsi0Awow9vaK5qu1U1m12PZ9wfBd-eKQ7M4oAD9qU",
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMCIsIm9yZyI6MTcsInJvbGUiOiJhZG1pbiIsImp0aSI6IjQ4MDdlMTM3YmJkMjQ5NDlhNTllNWEwMjZlZDc1ZjE0IiwiaWF0IjoxNzgzNjA5NjgzLCJleHAiOjE3ODM2MTA1ODMsInR5cGUiOiJhY2Nlc3MifQ.sRnq0D72ni4T6Hm8ILjhGeQD7cEeryF0SICDTY_QngY",
+  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMCIsIm9yZyI6MTcsInJvbGUiOiJhZG1pbiIsImp0aSI6IjI4ZmU3ZjI3ZjZjYTRlZGFhZjYwMGZlNmJlMzU2ZDlmIiwiaWF0IjoxNzgzNjA5NjgzLCJleHAiOjE3ODQyMTQ0ODMsInR5cGUiOiJyZWZyZXNoIn0.h60pz2yA1qM_xxfydy2FL0SsRQEv0r9mASruaiWPm0M",
   "token_type": "bearer"
 }
 ```
@@ -571,7 +571,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "org_name": "org_75f5e1ea",
+  "org_name": "org_a586d77f",
   "username": "admin1",
   "password": "pw"
 }
@@ -586,8 +586,8 @@ This test suite validates the implementation against the specification, covering
 - JSON:
 ```json
 {
-  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwib3JnIjoyLCJyb2xlIjoiYWRtaW4iLCJqdGkiOiIzZTYyMWVjZTliZDE0NmEyOWYxZTNmZDJhZjI2MTNjMyIsImlhdCI6MTc4MzYwNzg1MCwiZXhwIjoxNzgzNjA4NzUwLCJ0eXBlIjoiYWNjZXNzIn0.Q8anDIzJ-nEusMoCtuWIz1C27pQl-hj_Us8YSUQk3SM",
-  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwib3JnIjoyLCJyb2xlIjoiYWRtaW4iLCJqdGkiOiJhYzM5ZTFhYTg0ZDU0ZTZkYWQ3NjgwZTAyM2JlYmIzYyIsImlhdCI6MTc4MzYwNzg1MCwiZXhwIjoxNzg0MjEyNjUwLCJ0eXBlIjoicmVmcmVzaCJ9.Md_GEE9xH_eaYw4CJwnLY1MGlQhXgQMTfhTR2aLuz5w",
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMCIsIm9yZyI6MTcsInJvbGUiOiJhZG1pbiIsImp0aSI6IjFmOWQwMTgwYzc5NzQyYTU4N2RkZmVkMTFkMjhkZDIyIiwiaWF0IjoxNzgzNjA5NjgzLCJleHAiOjE3ODM2MTA1ODMsInR5cGUiOiJhY2Nlc3MifQ.u7ARQGzFzDRD0R-Y71Lyhb7qLJs5hfGNT1cYCprNGJI",
+  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMCIsIm9yZyI6MTcsInJvbGUiOiJhZG1pbiIsImp0aSI6IjRlYjQ0NWZiMTFjNjRiZjRiN2M2YTE3ZWQ5NzA0M2E5IiwiaWF0IjoxNzgzNjA5NjgzLCJleHAiOjE3ODQyMTQ0ODMsInR5cGUiOiJyZWZyZXNoIn0.uCvd4ohrEcKa3cRF5QqwE4SskdjhZ-rnE7aSY4uvqgU",
   "token_type": "bearer"
 }
 ```
@@ -603,7 +603,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "org_name": "org_75f5e1ea",
+  "org_name": "org_a586d77f",
   "username": "admin1",
   "password": "pw"
 }
@@ -618,8 +618,8 @@ This test suite validates the implementation against the specification, covering
 - JSON:
 ```json
 {
-  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwib3JnIjoyLCJyb2xlIjoiYWRtaW4iLCJqdGkiOiJlNTMwNzkwNDJlYWU0MWQ1OWM0MjQ5NDAwNzcwYzQ4NiIsImlhdCI6MTc4MzYwNzg1MCwiZXhwIjoxNzgzNjA4NzUwLCJ0eXBlIjoiYWNjZXNzIn0.Z5-ReGv1dirh1V8nsgdsZeAMBh2KNLBgYfrxls3u288",
-  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwib3JnIjoyLCJyb2xlIjoiYWRtaW4iLCJqdGkiOiIyZDkzYzM2ZDIxOGU0YjcxOTM1MWZjOGIyOTEyYjRmMyIsImlhdCI6MTc4MzYwNzg1MCwiZXhwIjoxNzg0MjEyNjUwLCJ0eXBlIjoicmVmcmVzaCJ9.TbZqSU8upjrlwZLkqsE7P5zl1tNLIRwD5BvyOzF1aW8",
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMCIsIm9yZyI6MTcsInJvbGUiOiJhZG1pbiIsImp0aSI6IjczYjY0NzhiYzU1YTQ1OTBhNjc3ZmNhZTc2YmM3MmFkIiwiaWF0IjoxNzgzNjA5NjgzLCJleHAiOjE3ODM2MTA1ODMsInR5cGUiOiJhY2Nlc3MifQ.wQ28eFFvtOGgPBjBx74BPDURZS3GxGN9556wVkwwJyA",
+  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMCIsIm9yZyI6MTcsInJvbGUiOiJhZG1pbiIsImp0aSI6IjhjOGY2Njk0YjFhMjQ4MjZiODI1NDVlYTdlYmM5NWIzIiwiaWF0IjoxNzgzNjA5NjgzLCJleHAiOjE3ODQyMTQ0ODMsInR5cGUiOiJyZWZyZXNoIn0.VNRrJujpiGvKfYimB7TgvhmFrqQdF64F-PrPFdaQDrM",
   "token_type": "bearer"
 }
 ```
@@ -635,7 +635,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "org_name": "org_75f5e1ea",
+  "org_name": "org_a586d77f",
   "username": "admin1",
   "password": "pw"
 }
@@ -650,8 +650,8 @@ This test suite validates the implementation against the specification, covering
 - JSON:
 ```json
 {
-  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwib3JnIjoyLCJyb2xlIjoiYWRtaW4iLCJqdGkiOiI2NjFkYTM1M2NjNzQ0MmQ3Yjc1ZDcwNGEyNDg2MjU2OSIsImlhdCI6MTc4MzYwNzg1MCwiZXhwIjoxNzgzNjA4NzUwLCJ0eXBlIjoiYWNjZXNzIn0.osP2JxKi6qkV7qUGhOfAPLcQO6duo3_8rVzJgB5_pQI",
-  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwib3JnIjoyLCJyb2xlIjoiYWRtaW4iLCJqdGkiOiI3OGM0YzFmMmMzNDA0ZDQ3OTljYjkyYTczOWY2MDk5YiIsImlhdCI6MTc4MzYwNzg1MCwiZXhwIjoxNzg0MjEyNjUwLCJ0eXBlIjoicmVmcmVzaCJ9.7QAP0hrA9mg82lZYVdAzUabyb8bWl_hJhiBUihKK9No",
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMCIsIm9yZyI6MTcsInJvbGUiOiJhZG1pbiIsImp0aSI6ImJiNzQ1NTc2NmI4YjQzMTY4M2ExMjFiZDE5MjEyM2Q4IiwiaWF0IjoxNzgzNjA5NjgzLCJleHAiOjE3ODM2MTA1ODMsInR5cGUiOiJhY2Nlc3MifQ.QdkE5je7AliRCw_uq-PCywP2CzdpcEKqVBi7JeqgpJo",
+  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMCIsIm9yZyI6MTcsInJvbGUiOiJhZG1pbiIsImp0aSI6IjMzMzg1NjNiZWNhMTRlODg4ZGZlODNkYmE2YmRhODA5IiwiaWF0IjoxNzgzNjA5NjgzLCJleHAiOjE3ODQyMTQ0ODMsInR5cGUiOiJyZWZyZXNoIn0.SljoUJksYBciMnc34WMpAR-8ghtS3TqEZHuxQvi9Xck",
   "token_type": "bearer"
 }
 ```
@@ -667,7 +667,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzIiwib3JnIjoyLCJyb2xlIjoibWVtYmVyIiwianRpIjoiM2I5YTQ1Zjc0NjJjNGRlMmE2YTRhNzg2MzJlYTA0ZDIiLCJpYXQiOjE3ODM2MDc4NDksImV4cCI6MTc4NDIxMjY0OSwidHlwZSI6InJlZnJlc2gifQ.jxfRcF2eS3hLxqBc8Momq0qgiEqrv5b2-B6KVIN_a3U"
+  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMSIsIm9yZyI6MTcsInJvbGUiOiJtZW1iZXIiLCJqdGkiOiIxNzAxODg4ZjZmNGU0NGE0OTdlNzA3YWQ5NzVhZDkxNyIsImlhdCI6MTc4MzYwOTY4MiwiZXhwIjoxNzg0MjE0NDgyLCJ0eXBlIjoicmVmcmVzaCJ9.kHbPs1-ONZ1eZjZRMFc4vDrbi-HjuO2kHZ8FQ8j9v84"
 }
 ```
 
@@ -680,8 +680,8 @@ This test suite validates the implementation against the specification, covering
 - JSON:
 ```json
 {
-  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzIiwib3JnIjoyLCJyb2xlIjoibWVtYmVyIiwianRpIjoiMThmNTg1YWUxMDEwNDliZGI0NTgwNmNmMjY2ZjA1MjUiLCJpYXQiOjE3ODM2MDc4NTAsImV4cCI6MTc4MzYwODc1MCwidHlwZSI6ImFjY2VzcyJ9.YrHpv5tpLEoP1BNBIx8miH-TDkqLWG0MbijFBpUmGGo",
-  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzIiwib3JnIjoyLCJyb2xlIjoibWVtYmVyIiwianRpIjoiM2RjNjg5ZDViNGMwNDY1YmI5MDRkODE5YzU1OTM2MzIiLCJpYXQiOjE3ODM2MDc4NTAsImV4cCI6MTc4NDIxMjY1MCwidHlwZSI6InJlZnJlc2gifQ.vF3Z7fRN3koouR4nJZKED25aagvOs8dHx3SQRGbZUh4",
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMSIsIm9yZyI6MTcsInJvbGUiOiJtZW1iZXIiLCJqdGkiOiJjOTgxNDhlZjZiZGU0NTk4OTQyYTIyOTNjMTA2NzE3ZSIsImlhdCI6MTc4MzYwOTY4MywiZXhwIjoxNzgzNjEwNTgzLCJ0eXBlIjoiYWNjZXNzIn0.k5SFWZ4Cc6gFNYjdMnZkiQTrCxxAr0p5n_0L3xfvosQ",
+  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMSIsIm9yZyI6MTcsInJvbGUiOiJtZW1iZXIiLCJqdGkiOiJlY2QyOTBlZjk0NmI0OWMxODUwNTRiNTc1MzNhNmRkZSIsImlhdCI6MTc4MzYwOTY4MywiZXhwIjoxNzg0MjE0NDgzLCJ0eXBlIjoicmVmcmVzaCJ9.xvi7cKVwkt_Z9hZb4KWVbU6Nlh5oV5RgU1qJ3jpPheE",
   "token_type": "bearer"
 }
 ```
@@ -697,7 +697,7 @@ This test suite validates the implementation against the specification, covering
 - Body:
 ```json
 {
-  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzIiwib3JnIjoyLCJyb2xlIjoibWVtYmVyIiwianRpIjoiM2I5YTQ1Zjc0NjJjNGRlMmE2YTRhNzg2MzJlYTA0ZDIiLCJpYXQiOjE3ODM2MDc4NDksImV4cCI6MTc4NDIxMjY0OSwidHlwZSI6InJlZnJlc2gifQ.jxfRcF2eS3hLxqBc8Momq0qgiEqrv5b2-B6KVIN_a3U"
+  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMSIsIm9yZyI6MTcsInJvbGUiOiJtZW1iZXIiLCJqdGkiOiIxNzAxODg4ZjZmNGU0NGE0OTdlNzA3YWQ5NzVhZDkxNyIsImlhdCI6MTc4MzYwOTY4MiwiZXhwIjoxNzg0MjE0NDgyLCJ0eXBlIjoicmVmcmVzaCJ9.kHbPs1-ONZ1eZjZRMFc4vDrbi-HjuO2kHZ8FQ8j9v84"
 }
 ```
 
@@ -791,7 +791,7 @@ None
 - Body:
 ```json
 {
-  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzIiwib3JnIjoyLCJyb2xlIjoibWVtYmVyIiwianRpIjoiM2RjNjg5ZDViNGMwNDY1YmI5MDRkODE5YzU1OTM2MzIiLCJpYXQiOjE3ODM2MDc4NTAsImV4cCI6MTc4NDIxMjY1MCwidHlwZSI6InJlZnJlc2gifQ.vF3Z7fRN3koouR4nJZKED25aagvOs8dHx3SQRGbZUh4"
+  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMSIsIm9yZyI6MTcsInJvbGUiOiJtZW1iZXIiLCJqdGkiOiJlY2QyOTBlZjk0NmI0OWMxODUwNTRiNTc1MzNhNmRkZSIsImlhdCI6MTc4MzYwOTY4MywiZXhwIjoxNzg0MjE0NDgzLCJ0eXBlIjoicmVmcmVzaCJ9.xvi7cKVwkt_Z9hZb4KWVbU6Nlh5oV5RgU1qJ3jpPheE"
 }
 ```
 
@@ -804,8 +804,8 @@ None
 - JSON:
 ```json
 {
-  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzIiwib3JnIjoyLCJyb2xlIjoibWVtYmVyIiwianRpIjoiOWQ4MWNmMWIxODM4NDdjZDljMGM2YzVlNDYxOWYwNjUiLCJpYXQiOjE3ODM2MDc4NTAsImV4cCI6MTc4MzYwODc1MCwidHlwZSI6ImFjY2VzcyJ9.2FpnBxgi0MEoVqKoz_fYV-1VExMWL5nqSHzvuC9GV-Y",
-  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzIiwib3JnIjoyLCJyb2xlIjoibWVtYmVyIiwianRpIjoiMjJiOTM2Zjk4MTM2NGJmZTk5NmMzOWQxZmNhYzMwMDMiLCJpYXQiOjE3ODM2MDc4NTAsImV4cCI6MTc4NDIxMjY1MCwidHlwZSI6InJlZnJlc2gifQ.1RdKkELOfv3ohJ9_UWi1ujQ1MBL9l3JUyzjLDgRrT44",
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMSIsIm9yZyI6MTcsInJvbGUiOiJtZW1iZXIiLCJqdGkiOiJlYjY3YzhiZjNjOWU0MWQyODc0MzVlYzZjODI3M2QyOSIsImlhdCI6MTc4MzYwOTY4MywiZXhwIjoxNzgzNjEwNTgzLCJ0eXBlIjoiYWNjZXNzIn0.u9NiH36CAZFyw5s1orcNjwtmNL84wahXY2jI3KT2VaM",
+  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMSIsIm9yZyI6MTcsInJvbGUiOiJtZW1iZXIiLCJqdGkiOiI2ZTQyZTFkNTgwNjA0NDk3YWY4MjA0NDZiYWU3MDY5NCIsImlhdCI6MTc4MzYwOTY4MywiZXhwIjoxNzg0MjE0NDgzLCJ0eXBlIjoicmVmcmVzaCJ9.nv87w7hibmGREI3gdTFRCumqfS7ugIF3CzYK00Obkcs",
   "token_type": "bearer"
 }
 ```
@@ -952,8 +952,8 @@ None
 - JSON:
 ```json
 {
-  "id": 1,
-  "org_id": 2,
+  "id": 16,
+  "org_id": 17,
   "name": "Room A",
   "capacity": 10,
   "hourly_rate_cents": 1000
@@ -1017,8 +1017,8 @@ None
 - JSON:
 ```json
 {
-  "id": 2,
-  "org_id": 2,
+  "id": 17,
+  "org_id": 17,
   "name": "Room B",
   "capacity": 5,
   "hourly_rate_cents": -100
@@ -1051,8 +1051,8 @@ None
 - JSON:
 ```json
 {
-  "id": 3,
-  "org_id": 2,
+  "id": 18,
+  "org_id": 17,
   "name": "Room C",
   "capacity": 0,
   "hourly_rate_cents": 500
@@ -1116,8 +1116,8 @@ None
 - JSON:
 ```json
 {
-  "id": 4,
-  "org_id": 2,
+  "id": 19,
+  "org_id": 17,
   "name": "Room D",
   "capacity": 5,
   "hourly_rate_cents": 500
@@ -1150,8 +1150,8 @@ None
 - JSON:
 ```json
 {
-  "id": 5,
-  "org_id": 2,
+  "id": 20,
+  "org_id": 17,
   "name": "Room E",
   "capacity": 5,
   "hourly_rate_cents": 500
@@ -1184,8 +1184,8 @@ None
 - JSON:
 ```json
 {
-  "id": 6,
-  "org_id": 2,
+  "id": 21,
+  "org_id": 17,
   "name": "Room F",
   "capacity": 5,
   "hourly_rate_cents": 500
@@ -1218,8 +1218,8 @@ None
 - JSON:
 ```json
 {
-  "id": 7,
-  "org_id": 2,
+  "id": 22,
+  "org_id": 17,
   "name": "Room G",
   "capacity": 5,
   "hourly_rate_cents": 500
@@ -1249,50 +1249,50 @@ None
 ```json
 [
   {
-    "id": 1,
-    "org_id": 2,
+    "id": 16,
+    "org_id": 17,
     "name": "Room A",
     "capacity": 10,
     "hourly_rate_cents": 1000
   },
   {
-    "id": 2,
-    "org_id": 2,
+    "id": 17,
+    "org_id": 17,
     "name": "Room B",
     "capacity": 5,
     "hourly_rate_cents": -100
   },
   {
-    "id": 3,
-    "org_id": 2,
+    "id": 18,
+    "org_id": 17,
     "name": "Room C",
     "capacity": 0,
     "hourly_rate_cents": 500
   },
   {
-    "id": 4,
-    "org_id": 2,
+    "id": 19,
+    "org_id": 17,
     "name": "Room D",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 5,
-    "org_id": 2,
+    "id": 20,
+    "org_id": 17,
     "name": "Room E",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 6,
-    "org_id": 2,
+    "id": 21,
+    "org_id": 17,
     "name": "Room F",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 7,
-    "org_id": 2,
+    "id": 22,
+    "org_id": 17,
     "name": "Room G",
     "capacity": 5,
     "hourly_rate_cents": 500
@@ -1374,50 +1374,50 @@ None
 ```json
 [
   {
-    "id": 1,
-    "org_id": 2,
+    "id": 16,
+    "org_id": 17,
     "name": "Room A",
     "capacity": 10,
     "hourly_rate_cents": 1000
   },
   {
-    "id": 2,
-    "org_id": 2,
+    "id": 17,
+    "org_id": 17,
     "name": "Room B",
     "capacity": 5,
     "hourly_rate_cents": -100
   },
   {
-    "id": 3,
-    "org_id": 2,
+    "id": 18,
+    "org_id": 17,
     "name": "Room C",
     "capacity": 0,
     "hourly_rate_cents": 500
   },
   {
-    "id": 4,
-    "org_id": 2,
+    "id": 19,
+    "org_id": 17,
     "name": "Room D",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 5,
-    "org_id": 2,
+    "id": 20,
+    "org_id": 17,
     "name": "Room E",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 6,
-    "org_id": 2,
+    "id": 21,
+    "org_id": 17,
     "name": "Room F",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 7,
-    "org_id": 2,
+    "id": 22,
+    "org_id": 17,
     "name": "Room G",
     "capacity": 5,
     "hourly_rate_cents": 500
@@ -1448,50 +1448,50 @@ None
 ```json
 [
   {
-    "id": 1,
-    "org_id": 2,
+    "id": 16,
+    "org_id": 17,
     "name": "Room A",
     "capacity": 10,
     "hourly_rate_cents": 1000
   },
   {
-    "id": 2,
-    "org_id": 2,
+    "id": 17,
+    "org_id": 17,
     "name": "Room B",
     "capacity": 5,
     "hourly_rate_cents": -100
   },
   {
-    "id": 3,
-    "org_id": 2,
+    "id": 18,
+    "org_id": 17,
     "name": "Room C",
     "capacity": 0,
     "hourly_rate_cents": 500
   },
   {
-    "id": 4,
-    "org_id": 2,
+    "id": 19,
+    "org_id": 17,
     "name": "Room D",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 5,
-    "org_id": 2,
+    "id": 20,
+    "org_id": 17,
     "name": "Room E",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 6,
-    "org_id": 2,
+    "id": 21,
+    "org_id": 17,
     "name": "Room F",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 7,
-    "org_id": 2,
+    "id": 22,
+    "org_id": 17,
     "name": "Room G",
     "capacity": 5,
     "hourly_rate_cents": 500
@@ -1522,50 +1522,50 @@ None
 ```json
 [
   {
-    "id": 1,
-    "org_id": 2,
+    "id": 16,
+    "org_id": 17,
     "name": "Room A",
     "capacity": 10,
     "hourly_rate_cents": 1000
   },
   {
-    "id": 2,
-    "org_id": 2,
+    "id": 17,
+    "org_id": 17,
     "name": "Room B",
     "capacity": 5,
     "hourly_rate_cents": -100
   },
   {
-    "id": 3,
-    "org_id": 2,
+    "id": 18,
+    "org_id": 17,
     "name": "Room C",
     "capacity": 0,
     "hourly_rate_cents": 500
   },
   {
-    "id": 4,
-    "org_id": 2,
+    "id": 19,
+    "org_id": 17,
     "name": "Room D",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 5,
-    "org_id": 2,
+    "id": 20,
+    "org_id": 17,
     "name": "Room E",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 6,
-    "org_id": 2,
+    "id": 21,
+    "org_id": 17,
     "name": "Room F",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 7,
-    "org_id": 2,
+    "id": 22,
+    "org_id": 17,
     "name": "Room G",
     "capacity": 5,
     "hourly_rate_cents": 500
@@ -1596,50 +1596,50 @@ None
 ```json
 [
   {
-    "id": 1,
-    "org_id": 2,
+    "id": 16,
+    "org_id": 17,
     "name": "Room A",
     "capacity": 10,
     "hourly_rate_cents": 1000
   },
   {
-    "id": 2,
-    "org_id": 2,
+    "id": 17,
+    "org_id": 17,
     "name": "Room B",
     "capacity": 5,
     "hourly_rate_cents": -100
   },
   {
-    "id": 3,
-    "org_id": 2,
+    "id": 18,
+    "org_id": 17,
     "name": "Room C",
     "capacity": 0,
     "hourly_rate_cents": 500
   },
   {
-    "id": 4,
-    "org_id": 2,
+    "id": 19,
+    "org_id": 17,
     "name": "Room D",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 5,
-    "org_id": 2,
+    "id": 20,
+    "org_id": 17,
     "name": "Room E",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 6,
-    "org_id": 2,
+    "id": 21,
+    "org_id": 17,
     "name": "Room F",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 7,
-    "org_id": 2,
+    "id": 22,
+    "org_id": 17,
     "name": "Room G",
     "capacity": 5,
     "hourly_rate_cents": 500
@@ -1670,50 +1670,50 @@ None
 ```json
 [
   {
-    "id": 1,
-    "org_id": 2,
+    "id": 16,
+    "org_id": 17,
     "name": "Room A",
     "capacity": 10,
     "hourly_rate_cents": 1000
   },
   {
-    "id": 2,
-    "org_id": 2,
+    "id": 17,
+    "org_id": 17,
     "name": "Room B",
     "capacity": 5,
     "hourly_rate_cents": -100
   },
   {
-    "id": 3,
-    "org_id": 2,
+    "id": 18,
+    "org_id": 17,
     "name": "Room C",
     "capacity": 0,
     "hourly_rate_cents": 500
   },
   {
-    "id": 4,
-    "org_id": 2,
+    "id": 19,
+    "org_id": 17,
     "name": "Room D",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 5,
-    "org_id": 2,
+    "id": 20,
+    "org_id": 17,
     "name": "Room E",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 6,
-    "org_id": 2,
+    "id": 21,
+    "org_id": 17,
     "name": "Room F",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 7,
-    "org_id": 2,
+    "id": 22,
+    "org_id": 17,
     "name": "Room G",
     "capacity": 5,
     "hourly_rate_cents": 500
@@ -1744,50 +1744,50 @@ None
 ```json
 [
   {
-    "id": 1,
-    "org_id": 2,
+    "id": 16,
+    "org_id": 17,
     "name": "Room A",
     "capacity": 10,
     "hourly_rate_cents": 1000
   },
   {
-    "id": 2,
-    "org_id": 2,
+    "id": 17,
+    "org_id": 17,
     "name": "Room B",
     "capacity": 5,
     "hourly_rate_cents": -100
   },
   {
-    "id": 3,
-    "org_id": 2,
+    "id": 18,
+    "org_id": 17,
     "name": "Room C",
     "capacity": 0,
     "hourly_rate_cents": 500
   },
   {
-    "id": 4,
-    "org_id": 2,
+    "id": 19,
+    "org_id": 17,
     "name": "Room D",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 5,
-    "org_id": 2,
+    "id": 20,
+    "org_id": 17,
     "name": "Room E",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 6,
-    "org_id": 2,
+    "id": 21,
+    "org_id": 17,
     "name": "Room F",
     "capacity": 5,
     "hourly_rate_cents": 500
   },
   {
-    "id": 7,
-    "org_id": 2,
+    "id": 22,
+    "org_id": 17,
     "name": "Room G",
     "capacity": 5,
     "hourly_rate_cents": 500
@@ -1806,9 +1806,9 @@ None
 - Body:
 ```json
 {
-  "room_id": 1,
-  "start_time": "2026-07-09T16:00:00+00:00",
-  "end_time": "2026-07-09T18:00:00+00:00"
+  "room_id": 16,
+  "start_time": "2026-07-09T17:00:00+00:00",
+  "end_time": "2026-07-09T19:00:00+00:00"
 }
 ```
 
@@ -1821,15 +1821,15 @@ None
 - JSON:
 ```json
 {
-  "id": 1,
+  "id": 12,
   "reference_code": "CW-001000",
-  "room_id": 1,
-  "user_id": 3,
-  "start_time": "2026-07-09T16:00:00+00:00",
-  "end_time": "2026-07-09T18:00:00+00:00",
+  "room_id": 16,
+  "user_id": 21,
+  "start_time": "2026-07-09T17:00:00+00:00",
+  "end_time": "2026-07-09T19:00:00+00:00",
   "status": "confirmed",
   "price_cents": 2000,
-  "created_at": "2026-07-09T14:37:31.288604+00:00"
+  "created_at": "2026-07-09T15:08:04.513257+00:00"
 }
 ```
 **Result:** ✅ PASS
@@ -1844,9 +1844,9 @@ None
 - Body:
 ```json
 {
-  "room_id": 1,
-  "start_time": "2026-07-09T12:00:00+00:00",
-  "end_time": "2026-07-09T15:00:00+00:00"
+  "room_id": 16,
+  "start_time": "2026-07-09T13:00:00+00:00",
+  "end_time": "2026-07-09T16:00:00+00:00"
 }
 ```
 
@@ -1875,9 +1875,9 @@ None
 - Body:
 ```json
 {
-  "room_id": 1,
-  "start_time": "2026-07-09T17:00:00+00:00",
-  "end_time": "2026-07-09T19:00:00+00:00"
+  "room_id": 16,
+  "start_time": "2026-07-09T18:00:00+00:00",
+  "end_time": "2026-07-09T20:00:00+00:00"
 }
 ```
 
@@ -1906,9 +1906,9 @@ None
 - Body:
 ```json
 {
-  "room_id": 1,
-  "start_time": "2026-07-09T18:00:00+00:00",
-  "end_time": "2026-07-09T20:00:00+00:00"
+  "room_id": 16,
+  "start_time": "2026-07-09T19:00:00+00:00",
+  "end_time": "2026-07-09T21:00:00+00:00"
 }
 ```
 
@@ -1921,15 +1921,15 @@ None
 - JSON:
 ```json
 {
-  "id": 2,
+  "id": 13,
   "reference_code": "CW-001001",
-  "room_id": 1,
-  "user_id": 3,
-  "start_time": "2026-07-09T18:00:00+00:00",
-  "end_time": "2026-07-09T20:00:00+00:00",
+  "room_id": 16,
+  "user_id": 21,
+  "start_time": "2026-07-09T19:00:00+00:00",
+  "end_time": "2026-07-09T21:00:00+00:00",
   "status": "confirmed",
   "price_cents": 2000,
-  "created_at": "2026-07-09T14:37:32.457819+00:00"
+  "created_at": "2026-07-09T15:08:05.656377+00:00"
 }
 ```
 **Result:** ✅ PASS
@@ -1944,9 +1944,9 @@ None
 - Body:
 ```json
 {
-  "room_id": 1,
-  "start_time": "2026-07-10T00:00:00+00:00",
-  "end_time": "2026-07-10T01:07:33.137365+00:00"
+  "room_id": 16,
+  "start_time": "2026-07-10T01:00:00+00:00",
+  "end_time": "2026-07-10T01:38:06.338124+00:00"
 }
 ```
 
@@ -1975,9 +1975,9 @@ None
 - Body:
 ```json
 {
-  "room_id": 1,
-  "start_time": "2026-07-10T00:00:00+00:00",
-  "end_time": "2026-07-10T09:00:00+00:00"
+  "room_id": 16,
+  "start_time": "2026-07-10T01:00:00+00:00",
+  "end_time": "2026-07-10T10:00:00+00:00"
 }
 ```
 
@@ -2006,9 +2006,9 @@ None
 - Body:
 ```json
 {
-  "room_id": 1,
-  "start_time": "2026-07-10T13:00:00+00:00",
-  "end_time": "2026-07-10T14:00:00+00:00"
+  "room_id": 16,
+  "start_time": "2026-07-10T14:00:00+00:00",
+  "end_time": "2026-07-10T15:00:00+00:00"
 }
 ```
 
@@ -2021,15 +2021,15 @@ None
 - JSON:
 ```json
 {
-  "id": 3,
+  "id": 14,
   "reference_code": "CW-001002",
-  "room_id": 1,
-  "user_id": 3,
-  "start_time": "2026-07-10T13:00:00+00:00",
-  "end_time": "2026-07-10T14:00:00+00:00",
+  "room_id": 16,
+  "user_id": 21,
+  "start_time": "2026-07-10T14:00:00+00:00",
+  "end_time": "2026-07-10T15:00:00+00:00",
   "status": "confirmed",
   "price_cents": 1000,
-  "created_at": "2026-07-09T14:37:33.465757+00:00"
+  "created_at": "2026-07-09T15:08:06.666840+00:00"
 }
 ```
 **Result:** ❌ FAIL (Regression)
@@ -2044,9 +2044,9 @@ None
 - Body:
 ```json
 {
-  "room_id": 1,
-  "start_time": "2026-07-10T02:00:00+00:00",
-  "end_time": "2026-07-10T03:00:00+00:00"
+  "room_id": 16,
+  "start_time": "2026-07-10T03:00:00+00:00",
+  "end_time": "2026-07-10T04:00:00+00:00"
 }
 ```
 
@@ -2075,9 +2075,9 @@ None
 - Body:
 ```json
 {
-  "room_id": 1,
-  "start_time": "2026-07-10T15:00:00+00:00",
-  "end_time": "2026-07-10T16:00:00+00:00"
+  "room_id": 16,
+  "start_time": "2026-07-10T16:00:00+00:00",
+  "end_time": "2026-07-10T17:00:00+00:00"
 }
 ```
 
@@ -2090,15 +2090,15 @@ None
 - JSON:
 ```json
 {
-  "id": 4,
+  "id": 15,
   "reference_code": "CW-001003",
-  "room_id": 1,
-  "user_id": 2,
-  "start_time": "2026-07-10T15:00:00+00:00",
-  "end_time": "2026-07-10T16:00:00+00:00",
+  "room_id": 16,
+  "user_id": 20,
+  "start_time": "2026-07-10T16:00:00+00:00",
+  "end_time": "2026-07-10T17:00:00+00:00",
   "status": "confirmed",
   "price_cents": 1000,
-  "created_at": "2026-07-09T14:37:34.273174+00:00"
+  "created_at": "2026-07-09T15:08:07.464145+00:00"
 }
 ```
 **Result:** ✅ PASS
@@ -2113,9 +2113,9 @@ None
 - Body:
 ```json
 {
-  "room_id": 1,
-  "start_time": "2026-07-10T04:00:00+00:00",
-  "end_time": "2026-07-10T05:00:00+00:00"
+  "room_id": 16,
+  "start_time": "2026-07-10T05:00:00+00:00",
+  "end_time": "2026-07-10T06:00:00+00:00"
 }
 ```
 
@@ -2144,9 +2144,9 @@ None
 - Body:
 ```json
 {
-  "room_id": 1,
-  "start_time": "2026-07-10T04:00:00+00:00",
-  "end_time": "2026-07-10T05:00:00+00:00"
+  "room_id": 16,
+  "start_time": "2026-07-10T05:00:00+00:00",
+  "end_time": "2026-07-10T06:00:00+00:00"
 }
 ```
 
@@ -2188,26 +2188,26 @@ None
 {
   "items": [
     {
-      "id": 1,
+      "id": 12,
       "reference_code": "CW-001000",
-      "room_id": 1,
-      "user_id": 3,
-      "start_time": "2026-07-09T16:00:00+00:00",
-      "end_time": "2026-07-09T18:00:00+00:00",
+      "room_id": 16,
+      "user_id": 21,
+      "start_time": "2026-07-09T17:00:00+00:00",
+      "end_time": "2026-07-09T19:00:00+00:00",
       "status": "confirmed",
       "price_cents": 2000,
-      "created_at": "2026-07-09T14:37:31.288604+00:00"
+      "created_at": "2026-07-09T15:08:04.513257+00:00"
     },
     {
-      "id": 2,
+      "id": 13,
       "reference_code": "CW-001001",
-      "room_id": 1,
-      "user_id": 3,
-      "start_time": "2026-07-09T18:00:00+00:00",
-      "end_time": "2026-07-09T20:00:00+00:00",
+      "room_id": 16,
+      "user_id": 21,
+      "start_time": "2026-07-09T19:00:00+00:00",
+      "end_time": "2026-07-09T21:00:00+00:00",
       "status": "confirmed",
       "price_cents": 2000,
-      "created_at": "2026-07-09T14:37:32.457819+00:00"
+      "created_at": "2026-07-09T15:08:05.656377+00:00"
     }
   ],
   "page": 1,
@@ -2240,37 +2240,37 @@ None
 {
   "items": [
     {
-      "id": 1,
+      "id": 12,
       "reference_code": "CW-001000",
-      "room_id": 1,
-      "user_id": 3,
-      "start_time": "2026-07-09T16:00:00+00:00",
-      "end_time": "2026-07-09T18:00:00+00:00",
+      "room_id": 16,
+      "user_id": 21,
+      "start_time": "2026-07-09T17:00:00+00:00",
+      "end_time": "2026-07-09T19:00:00+00:00",
       "status": "confirmed",
       "price_cents": 2000,
-      "created_at": "2026-07-09T14:37:31.288604+00:00"
+      "created_at": "2026-07-09T15:08:04.513257+00:00"
     },
     {
-      "id": 2,
+      "id": 13,
       "reference_code": "CW-001001",
-      "room_id": 1,
-      "user_id": 3,
-      "start_time": "2026-07-09T18:00:00+00:00",
-      "end_time": "2026-07-09T20:00:00+00:00",
+      "room_id": 16,
+      "user_id": 21,
+      "start_time": "2026-07-09T19:00:00+00:00",
+      "end_time": "2026-07-09T21:00:00+00:00",
       "status": "confirmed",
       "price_cents": 2000,
-      "created_at": "2026-07-09T14:37:32.457819+00:00"
+      "created_at": "2026-07-09T15:08:05.656377+00:00"
     },
     {
-      "id": 3,
+      "id": 14,
       "reference_code": "CW-001002",
-      "room_id": 1,
-      "user_id": 3,
-      "start_time": "2026-07-10T13:00:00+00:00",
-      "end_time": "2026-07-10T14:00:00+00:00",
+      "room_id": 16,
+      "user_id": 21,
+      "start_time": "2026-07-10T14:00:00+00:00",
+      "end_time": "2026-07-10T15:00:00+00:00",
       "status": "confirmed",
       "price_cents": 1000,
-      "created_at": "2026-07-09T14:37:33.465757+00:00"
+      "created_at": "2026-07-09T15:08:06.666840+00:00"
     }
   ],
   "page": 1,
@@ -2408,37 +2408,37 @@ None
 {
   "items": [
     {
-      "id": 1,
+      "id": 12,
       "reference_code": "CW-001000",
-      "room_id": 1,
-      "user_id": 3,
-      "start_time": "2026-07-09T16:00:00+00:00",
-      "end_time": "2026-07-09T18:00:00+00:00",
+      "room_id": 16,
+      "user_id": 21,
+      "start_time": "2026-07-09T17:00:00+00:00",
+      "end_time": "2026-07-09T19:00:00+00:00",
       "status": "confirmed",
       "price_cents": 2000,
-      "created_at": "2026-07-09T14:37:31.288604+00:00"
+      "created_at": "2026-07-09T15:08:04.513257+00:00"
     },
     {
-      "id": 2,
+      "id": 13,
       "reference_code": "CW-001001",
-      "room_id": 1,
-      "user_id": 3,
-      "start_time": "2026-07-09T18:00:00+00:00",
-      "end_time": "2026-07-09T20:00:00+00:00",
+      "room_id": 16,
+      "user_id": 21,
+      "start_time": "2026-07-09T19:00:00+00:00",
+      "end_time": "2026-07-09T21:00:00+00:00",
       "status": "confirmed",
       "price_cents": 2000,
-      "created_at": "2026-07-09T14:37:32.457819+00:00"
+      "created_at": "2026-07-09T15:08:05.656377+00:00"
     },
     {
-      "id": 3,
+      "id": 14,
       "reference_code": "CW-001002",
-      "room_id": 1,
-      "user_id": 3,
-      "start_time": "2026-07-10T13:00:00+00:00",
-      "end_time": "2026-07-10T14:00:00+00:00",
+      "room_id": 16,
+      "user_id": 21,
+      "start_time": "2026-07-10T14:00:00+00:00",
+      "end_time": "2026-07-10T15:00:00+00:00",
       "status": "confirmed",
       "price_cents": 1000,
-      "created_at": "2026-07-09T14:37:33.465757+00:00"
+      "created_at": "2026-07-09T15:08:06.666840+00:00"
     }
   ],
   "page": 1,
@@ -2500,37 +2500,37 @@ None
 {
   "items": [
     {
-      "id": 1,
+      "id": 12,
       "reference_code": "CW-001000",
-      "room_id": 1,
-      "user_id": 3,
-      "start_time": "2026-07-09T16:00:00+00:00",
-      "end_time": "2026-07-09T18:00:00+00:00",
+      "room_id": 16,
+      "user_id": 21,
+      "start_time": "2026-07-09T17:00:00+00:00",
+      "end_time": "2026-07-09T19:00:00+00:00",
       "status": "confirmed",
       "price_cents": 2000,
-      "created_at": "2026-07-09T14:37:31.288604+00:00"
+      "created_at": "2026-07-09T15:08:04.513257+00:00"
     },
     {
-      "id": 2,
+      "id": 13,
       "reference_code": "CW-001001",
-      "room_id": 1,
-      "user_id": 3,
-      "start_time": "2026-07-09T18:00:00+00:00",
-      "end_time": "2026-07-09T20:00:00+00:00",
+      "room_id": 16,
+      "user_id": 21,
+      "start_time": "2026-07-09T19:00:00+00:00",
+      "end_time": "2026-07-09T21:00:00+00:00",
       "status": "confirmed",
       "price_cents": 2000,
-      "created_at": "2026-07-09T14:37:32.457819+00:00"
+      "created_at": "2026-07-09T15:08:05.656377+00:00"
     },
     {
-      "id": 3,
+      "id": 14,
       "reference_code": "CW-001002",
-      "room_id": 1,
-      "user_id": 3,
-      "start_time": "2026-07-10T13:00:00+00:00",
-      "end_time": "2026-07-10T14:00:00+00:00",
+      "room_id": 16,
+      "user_id": 21,
+      "start_time": "2026-07-10T14:00:00+00:00",
+      "end_time": "2026-07-10T15:00:00+00:00",
       "status": "confirmed",
       "price_cents": 1000,
-      "created_at": "2026-07-09T14:37:33.465757+00:00"
+      "created_at": "2026-07-09T15:08:06.666840+00:00"
     }
   ],
   "page": 1,
@@ -2563,37 +2563,37 @@ None
 {
   "items": [
     {
-      "id": 1,
+      "id": 12,
       "reference_code": "CW-001000",
-      "room_id": 1,
-      "user_id": 3,
-      "start_time": "2026-07-09T16:00:00+00:00",
-      "end_time": "2026-07-09T18:00:00+00:00",
+      "room_id": 16,
+      "user_id": 21,
+      "start_time": "2026-07-09T17:00:00+00:00",
+      "end_time": "2026-07-09T19:00:00+00:00",
       "status": "confirmed",
       "price_cents": 2000,
-      "created_at": "2026-07-09T14:37:31.288604+00:00"
+      "created_at": "2026-07-09T15:08:04.513257+00:00"
     },
     {
-      "id": 2,
+      "id": 13,
       "reference_code": "CW-001001",
-      "room_id": 1,
-      "user_id": 3,
-      "start_time": "2026-07-09T18:00:00+00:00",
-      "end_time": "2026-07-09T20:00:00+00:00",
+      "room_id": 16,
+      "user_id": 21,
+      "start_time": "2026-07-09T19:00:00+00:00",
+      "end_time": "2026-07-09T21:00:00+00:00",
       "status": "confirmed",
       "price_cents": 2000,
-      "created_at": "2026-07-09T14:37:32.457819+00:00"
+      "created_at": "2026-07-09T15:08:05.656377+00:00"
     },
     {
-      "id": 3,
+      "id": 14,
       "reference_code": "CW-001002",
-      "room_id": 1,
-      "user_id": 3,
-      "start_time": "2026-07-10T13:00:00+00:00",
-      "end_time": "2026-07-10T14:00:00+00:00",
+      "room_id": 16,
+      "user_id": 21,
+      "start_time": "2026-07-10T14:00:00+00:00",
+      "end_time": "2026-07-10T15:00:00+00:00",
       "status": "confirmed",
       "price_cents": 1000,
-      "created_at": "2026-07-09T14:37:33.465757+00:00"
+      "created_at": "2026-07-09T15:08:06.666840+00:00"
     }
   ],
   "page": 1,
@@ -2608,7 +2608,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/bookings/1`
+- URL: `/bookings/12`
 - Auth: `Present`
 - Body:
 ```json
@@ -2624,15 +2624,15 @@ None
 - JSON:
 ```json
 {
-  "id": 1,
+  "id": 12,
   "reference_code": "CW-001000",
-  "room_id": 1,
-  "user_id": 3,
-  "start_time": "2026-07-09T16:00:00+00:00",
-  "end_time": "2026-07-09T18:00:00+00:00",
+  "room_id": 16,
+  "user_id": 21,
+  "start_time": "2026-07-09T17:00:00+00:00",
+  "end_time": "2026-07-09T19:00:00+00:00",
   "status": "confirmed",
   "price_cents": 2000,
-  "created_at": "2026-07-09T14:37:31.288604+00:00",
+  "created_at": "2026-07-09T15:08:04.513257+00:00",
   "refunds": []
 }
 ```
@@ -2643,7 +2643,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/bookings/1`
+- URL: `/bookings/12`
 - Auth: `Present`
 - Body:
 ```json
@@ -2659,15 +2659,15 @@ None
 - JSON:
 ```json
 {
-  "id": 1,
+  "id": 12,
   "reference_code": "CW-001000",
-  "room_id": 1,
-  "user_id": 3,
-  "start_time": "2026-07-09T16:00:00+00:00",
-  "end_time": "2026-07-09T18:00:00+00:00",
+  "room_id": 16,
+  "user_id": 21,
+  "start_time": "2026-07-09T17:00:00+00:00",
+  "end_time": "2026-07-09T19:00:00+00:00",
   "status": "confirmed",
   "price_cents": 2000,
-  "created_at": "2026-07-09T14:37:31.288604+00:00",
+  "created_at": "2026-07-09T15:08:04.513257+00:00",
   "refunds": []
 }
 ```
@@ -2678,7 +2678,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/bookings/1`
+- URL: `/bookings/12`
 - Auth: `Present`
 - Body:
 ```json
@@ -2768,7 +2768,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/bookings/1`
+- URL: `/bookings/12`
 - Auth: `None`
 - Body:
 ```json
@@ -2795,7 +2795,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/bookings/1`
+- URL: `/bookings/12`
 - Auth: `Present`
 - Body:
 ```json
@@ -2811,15 +2811,15 @@ None
 - JSON:
 ```json
 {
-  "id": 1,
+  "id": 12,
   "reference_code": "CW-001000",
-  "room_id": 1,
-  "user_id": 3,
-  "start_time": "2026-07-09T16:00:00+00:00",
-  "end_time": "2026-07-09T18:00:00+00:00",
+  "room_id": 16,
+  "user_id": 21,
+  "start_time": "2026-07-09T17:00:00+00:00",
+  "end_time": "2026-07-09T19:00:00+00:00",
   "status": "confirmed",
   "price_cents": 2000,
-  "created_at": "2026-07-09T14:37:31.288604+00:00",
+  "created_at": "2026-07-09T15:08:04.513257+00:00",
   "refunds": []
 }
 ```
@@ -2830,7 +2830,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/bookings/1`
+- URL: `/bookings/12`
 - Auth: `Present`
 - Body:
 ```json
@@ -2846,15 +2846,15 @@ None
 - JSON:
 ```json
 {
-  "id": 1,
+  "id": 12,
   "reference_code": "CW-001000",
-  "room_id": 1,
-  "user_id": 3,
-  "start_time": "2026-07-09T16:00:00+00:00",
-  "end_time": "2026-07-09T18:00:00+00:00",
+  "room_id": 16,
+  "user_id": 21,
+  "start_time": "2026-07-09T17:00:00+00:00",
+  "end_time": "2026-07-09T19:00:00+00:00",
   "status": "confirmed",
   "price_cents": 2000,
-  "created_at": "2026-07-09T14:37:31.288604+00:00",
+  "created_at": "2026-07-09T15:08:04.513257+00:00",
   "refunds": []
 }
 ```
@@ -2865,7 +2865,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/bookings/1`
+- URL: `/bookings/12`
 - Auth: `Present`
 - Body:
 ```json
@@ -2881,15 +2881,15 @@ None
 - JSON:
 ```json
 {
-  "id": 1,
+  "id": 12,
   "reference_code": "CW-001000",
-  "room_id": 1,
-  "user_id": 3,
-  "start_time": "2026-07-09T16:00:00+00:00",
-  "end_time": "2026-07-09T18:00:00+00:00",
+  "room_id": 16,
+  "user_id": 21,
+  "start_time": "2026-07-09T17:00:00+00:00",
+  "end_time": "2026-07-09T19:00:00+00:00",
   "status": "confirmed",
   "price_cents": 2000,
-  "created_at": "2026-07-09T14:37:31.288604+00:00",
+  "created_at": "2026-07-09T15:08:04.513257+00:00",
   "refunds": []
 }
 ```
@@ -2900,7 +2900,7 @@ None
 
 **Request:**
 - Method: `POST`
-- URL: `/bookings/1/cancel`
+- URL: `/bookings/12/cancel`
 - Auth: `Present`
 - Body:
 ```json
@@ -2916,7 +2916,7 @@ None
 - JSON:
 ```json
 {
-  "id": 1,
+  "id": 12,
   "status": "cancelled",
   "refund_percent": 0,
   "refund_amount_cents": 0
@@ -2929,7 +2929,7 @@ None
 
 **Request:**
 - Method: `POST`
-- URL: `/bookings/1/cancel`
+- URL: `/bookings/12/cancel`
 - Auth: `Present`
 - Body:
 ```json
@@ -2956,7 +2956,7 @@ None
 
 **Request:**
 - Method: `POST`
-- URL: `/bookings/1/cancel`
+- URL: `/bookings/12/cancel`
 - Auth: `Present`
 - Body:
 ```json
@@ -2983,7 +2983,7 @@ None
 
 **Request:**
 - Method: `POST`
-- URL: `/bookings/1/cancel`
+- URL: `/bookings/12/cancel`
 - Auth: `Present`
 - Body:
 ```json
@@ -3046,7 +3046,7 @@ None
 
 **Request:**
 - Method: `POST`
-- URL: `/bookings/1/cancel`
+- URL: `/bookings/12/cancel`
 - Auth: `None`
 - Body:
 ```json
@@ -3073,7 +3073,7 @@ None
 
 **Request:**
 - Method: `POST`
-- URL: `/bookings/1/cancel`
+- URL: `/bookings/12/cancel`
 - Auth: `Present`
 - Body:
 ```json
@@ -3100,7 +3100,7 @@ None
 
 **Request:**
 - Method: `POST`
-- URL: `/bookings/1/cancel`
+- URL: `/bookings/12/cancel`
 - Auth: `Present`
 - Body:
 ```json
@@ -3127,7 +3127,7 @@ None
 
 **Request:**
 - Method: `POST`
-- URL: `/bookings/1/cancel`
+- URL: `/bookings/12/cancel`
 - Auth: `Present`
 - Body:
 ```json
@@ -3154,7 +3154,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/rooms/1/availability?date=2026-07-09`
+- URL: `/rooms/16/availability?date=2026-07-09`
 - Auth: `Present`
 - Body:
 ```json
@@ -3170,12 +3170,12 @@ None
 - JSON:
 ```json
 {
-  "room_id": 1,
+  "room_id": 16,
   "date": "2026-07-09",
   "busy": [
     {
-      "start_time": "2026-07-09T18:00:00+00:00",
-      "end_time": "2026-07-09T20:00:00+00:00"
+      "start_time": "2026-07-09T19:00:00+00:00",
+      "end_time": "2026-07-09T21:00:00+00:00"
     }
   ]
 }
@@ -3187,7 +3187,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/rooms/1/availability?date=2026-07-10`
+- URL: `/rooms/16/availability?date=2026-07-10`
 - Auth: `Present`
 - Body:
 ```json
@@ -3203,16 +3203,16 @@ None
 - JSON:
 ```json
 {
-  "room_id": 1,
+  "room_id": 16,
   "date": "2026-07-10",
   "busy": [
     {
-      "start_time": "2026-07-10T13:00:00+00:00",
-      "end_time": "2026-07-10T14:00:00+00:00"
+      "start_time": "2026-07-10T14:00:00+00:00",
+      "end_time": "2026-07-10T15:00:00+00:00"
     },
     {
-      "start_time": "2026-07-10T15:00:00+00:00",
-      "end_time": "2026-07-10T16:00:00+00:00"
+      "start_time": "2026-07-10T16:00:00+00:00",
+      "end_time": "2026-07-10T17:00:00+00:00"
     }
   ]
 }
@@ -3224,7 +3224,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/rooms/1/availability?date=abc`
+- URL: `/rooms/16/availability?date=abc`
 - Auth: `Present`
 - Body:
 ```json
@@ -3290,7 +3290,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/rooms/1/availability?date=2026-07-09`
+- URL: `/rooms/16/availability?date=2026-07-09`
 - Auth: `None`
 - Body:
 ```json
@@ -3317,7 +3317,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/rooms/1/availability?date=2026-07-09`
+- URL: `/rooms/16/availability?date=2026-07-09`
 - Auth: `Present`
 - Body:
 ```json
@@ -3333,12 +3333,12 @@ None
 - JSON:
 ```json
 {
-  "room_id": 1,
+  "room_id": 16,
   "date": "2026-07-09",
   "busy": [
     {
-      "start_time": "2026-07-09T18:00:00+00:00",
-      "end_time": "2026-07-09T20:00:00+00:00"
+      "start_time": "2026-07-09T19:00:00+00:00",
+      "end_time": "2026-07-09T21:00:00+00:00"
     }
   ]
 }
@@ -3350,7 +3350,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/rooms/1/availability?date=2026-07-09`
+- URL: `/rooms/16/availability?date=2026-07-09`
 - Auth: `Present`
 - Body:
 ```json
@@ -3377,7 +3377,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/rooms/1/availability?date=2026-07-09`
+- URL: `/rooms/16/availability?date=2026-07-09`
 - Auth: `Present`
 - Body:
 ```json
@@ -3393,12 +3393,12 @@ None
 - JSON:
 ```json
 {
-  "room_id": 1,
+  "room_id": 16,
   "date": "2026-07-09",
   "busy": [
     {
-      "start_time": "2026-07-09T18:00:00+00:00",
-      "end_time": "2026-07-09T20:00:00+00:00"
+      "start_time": "2026-07-09T19:00:00+00:00",
+      "end_time": "2026-07-09T21:00:00+00:00"
     }
   ]
 }
@@ -3410,7 +3410,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/rooms/1/availability?date=2026-07-09`
+- URL: `/rooms/16/availability?date=2026-07-09`
 - Auth: `Present`
 - Body:
 ```json
@@ -3426,12 +3426,12 @@ None
 - JSON:
 ```json
 {
-  "room_id": 1,
+  "room_id": 16,
   "date": "2026-07-09",
   "busy": [
     {
-      "start_time": "2026-07-09T18:00:00+00:00",
-      "end_time": "2026-07-09T20:00:00+00:00"
+      "start_time": "2026-07-09T19:00:00+00:00",
+      "end_time": "2026-07-09T21:00:00+00:00"
     }
   ]
 }
@@ -3443,7 +3443,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/rooms/1/stats`
+- URL: `/rooms/16/stats`
 - Auth: `Present`
 - Body:
 ```json
@@ -3459,7 +3459,7 @@ None
 - JSON:
 ```json
 {
-  "room_id": 1,
+  "room_id": 16,
   "total_confirmed_bookings": 3,
   "total_revenue_cents": 4000
 }
@@ -3534,7 +3534,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/rooms/1/stats`
+- URL: `/rooms/16/stats`
 - Auth: `None`
 - Body:
 ```json
@@ -3561,7 +3561,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/rooms/1/stats`
+- URL: `/rooms/16/stats`
 - Auth: `Present`
 - Body:
 ```json
@@ -3577,7 +3577,7 @@ None
 - JSON:
 ```json
 {
-  "room_id": 1,
+  "room_id": 16,
   "total_confirmed_bookings": 3,
   "total_revenue_cents": 4000
 }
@@ -3589,7 +3589,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/rooms/1/stats`
+- URL: `/rooms/16/stats`
 - Auth: `Present`
 - Body:
 ```json
@@ -3616,7 +3616,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/rooms/1/stats`
+- URL: `/rooms/16/stats`
 - Auth: `Present`
 - Body:
 ```json
@@ -3632,7 +3632,7 @@ None
 - JSON:
 ```json
 {
-  "room_id": 1,
+  "room_id": 16,
   "total_confirmed_bookings": 3,
   "total_revenue_cents": 4000
 }
@@ -3644,7 +3644,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/rooms/1/stats`
+- URL: `/rooms/16/stats`
 - Auth: `Present`
 - Body:
 ```json
@@ -3660,7 +3660,7 @@ None
 - JSON:
 ```json
 {
-  "room_id": 1,
+  "room_id": 16,
   "total_confirmed_bookings": 3,
   "total_revenue_cents": 4000
 }
@@ -3672,7 +3672,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/rooms/1/stats`
+- URL: `/rooms/16/stats`
 - Auth: `Present`
 - Body:
 ```json
@@ -3688,7 +3688,7 @@ None
 - JSON:
 ```json
 {
-  "room_id": 1,
+  "room_id": 16,
   "total_confirmed_bookings": 3,
   "total_revenue_cents": 4000
 }
@@ -3720,43 +3720,43 @@ None
   "to": "2026-07-09",
   "rooms": [
     {
-      "room_id": 1,
+      "room_id": 16,
       "room_name": "Room A",
       "confirmed_bookings": 1,
       "revenue_cents": 2000
     },
     {
-      "room_id": 2,
+      "room_id": 17,
       "room_name": "Room B",
       "confirmed_bookings": 0,
       "revenue_cents": 0
     },
     {
-      "room_id": 3,
+      "room_id": 18,
       "room_name": "Room C",
       "confirmed_bookings": 0,
       "revenue_cents": 0
     },
     {
-      "room_id": 4,
+      "room_id": 19,
       "room_name": "Room D",
       "confirmed_bookings": 0,
       "revenue_cents": 0
     },
     {
-      "room_id": 5,
+      "room_id": 20,
       "room_name": "Room E",
       "confirmed_bookings": 0,
       "revenue_cents": 0
     },
     {
-      "room_id": 6,
+      "room_id": 21,
       "room_name": "Room F",
       "confirmed_bookings": 0,
       "revenue_cents": 0
     },
     {
-      "room_id": 7,
+      "room_id": 22,
       "room_name": "Room G",
       "confirmed_bookings": 0,
       "revenue_cents": 0
@@ -3993,43 +3993,43 @@ None
   "to": "2026-07-09",
   "rooms": [
     {
-      "room_id": 1,
+      "room_id": 16,
       "room_name": "Room A",
       "confirmed_bookings": 1,
       "revenue_cents": 2000
     },
     {
-      "room_id": 2,
+      "room_id": 17,
       "room_name": "Room B",
       "confirmed_bookings": 0,
       "revenue_cents": 0
     },
     {
-      "room_id": 3,
+      "room_id": 18,
       "room_name": "Room C",
       "confirmed_bookings": 0,
       "revenue_cents": 0
     },
     {
-      "room_id": 4,
+      "room_id": 19,
       "room_name": "Room D",
       "confirmed_bookings": 0,
       "revenue_cents": 0
     },
     {
-      "room_id": 5,
+      "room_id": 20,
       "room_name": "Room E",
       "confirmed_bookings": 0,
       "revenue_cents": 0
     },
     {
-      "room_id": 6,
+      "room_id": 21,
       "room_name": "Room F",
       "confirmed_bookings": 0,
       "revenue_cents": 0
     },
     {
-      "room_id": 7,
+      "room_id": 22,
       "room_name": "Room G",
       "confirmed_bookings": 0,
       "revenue_cents": 0
@@ -4064,43 +4064,43 @@ None
   "to": "2026-07-09",
   "rooms": [
     {
-      "room_id": 1,
+      "room_id": 16,
       "room_name": "Room A",
       "confirmed_bookings": 1,
       "revenue_cents": 2000
     },
     {
-      "room_id": 2,
+      "room_id": 17,
       "room_name": "Room B",
       "confirmed_bookings": 0,
       "revenue_cents": 0
     },
     {
-      "room_id": 3,
+      "room_id": 18,
       "room_name": "Room C",
       "confirmed_bookings": 0,
       "revenue_cents": 0
     },
     {
-      "room_id": 4,
+      "room_id": 19,
       "room_name": "Room D",
       "confirmed_bookings": 0,
       "revenue_cents": 0
     },
     {
-      "room_id": 5,
+      "room_id": 20,
       "room_name": "Room E",
       "confirmed_bookings": 0,
       "revenue_cents": 0
     },
     {
-      "room_id": 6,
+      "room_id": 21,
       "room_name": "Room F",
       "confirmed_bookings": 0,
       "revenue_cents": 0
     },
     {
-      "room_id": 7,
+      "room_id": 22,
       "room_name": "Room G",
       "confirmed_bookings": 0,
       "revenue_cents": 0
@@ -4166,7 +4166,7 @@ None
 
 **Request:**
 - Method: `GET`
-- URL: `/admin/export?room_id=1`
+- URL: `/admin/export?room_id=16`
 - Auth: `Present`
 - Body:
 ```json
