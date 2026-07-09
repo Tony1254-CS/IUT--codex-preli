@@ -1,5 +1,5 @@
 """Administrative reporting and export endpoints."""
-from datetime import datetime, time, timedelta
+from datetime import date, datetime, time, timedelta
 
 from fastapi import APIRouter, Depends, Query
 from fastapi.responses import Response
@@ -17,8 +17,8 @@ router = APIRouter(prefix="/admin", tags=["admin"])
 
 @router.get("/usage-report")
 def usage_report(
-    frm: datetime.date = Query(..., alias="from"),
-    to: datetime.date = Query(...),
+    frm: date = Query(..., alias="from"),
+    to: date = Query(...),
     db: Session = Depends(get_db),
     admin: User = Depends(require_admin),
 ):

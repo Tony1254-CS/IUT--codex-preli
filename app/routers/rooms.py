@@ -1,5 +1,5 @@
 """Room management, availability and live statistics."""
-from datetime import datetime, time, timedelta
+from datetime import date, datetime, time, timedelta
 
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
@@ -61,7 +61,7 @@ def create_room(
 @router.get("/{room_id}/availability")
 def availability(
     room_id: int,
-    date: datetime.date = Query(...),
+    date: date = Query(...),
     db: Session = Depends(get_db),
     user: User = Depends(get_current_user),
 ):
